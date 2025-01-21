@@ -1,51 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <style>
-        /* Стили для root1 */
-        #root2 {
-            /*position: relative;*/
-            /*height: 100vh; !* Занимает всю видимую высоту экрана *!*/
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* Элемент внутри root1, который прижимается к низу */
-        /*#Tabbar {*/
-        /*    position: absolute;*/
-        /*    margin-top: 100px; !* Прижимает элемент вниз *!*/
-        /*    padding: 10px;*/
-        /*}*/
-
-        /* Стили для root2 */
-        #root {
-            /*z-index: 1;*/
-            /*position: relative;*/
-            /*padding: 20px;*/
-            margin-top: 0px; /* Отступ ниже root1 */
-        }
-    </style>
+    <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <meta charset="UTF-8"/>
     <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
     />
     <title>dog</title>
-    <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script id="qwe" src="https://dvq1zz1g273yl.cloudfront.net/index_v1.1.0.min.js" test="true"
-            traffyKey="f980c2444ed85d4868496cad644dd8d530b4cd0e9ae4946823ebd849fc8dfc84"
-            traffy-key="f980c2444ed85d4868496cad644dd8d530b4cd0e9ae4946823ebd849fc8dfc84"></script>
-
-    <script type="module" crossorigin src="./assets/index-BIx1pFPY.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-rBxE9pQ9.css">
+  <script type="module" crossorigin src="./assets/index-BIx1pFPY.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-rBxE9pQ9.css">
 </head>
 <body>
-<div id="root2" traffy-key="f980c2444ed85d4868496cad644dd8d530b4cd0e9ae4946823ebd849fc8dfc84"></div>
 
-<div id="root" traffyKey="f980c2444ed85d4868496cad644dd8d530b4cd0e9ae4946823ebd849fc8dfc84"></div>
-<script>
-    window.Traffy.renderTasks(document.querySelector('#root2'), {traffyKey: "f980c2444ed85d4868496cad644dd8d530b4cd0e9ae4946823ebd849fc8dfc84"});
-</script>
+<div id="root"></div>
+
 </body>
 </html>
